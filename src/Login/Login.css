@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
+.Login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(#FEAF00,#F8D442);
+  }
+  
+  .Login-form {
+    width: 475px;
+    height: 500px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .Login-form-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Login-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 700;
+    border-left: 6px solid #F8D442;
+    line-height: 39.01px;
+  }
+  .Login-form-sing-in {
+    text-align: center;
+    font-size: 22px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 26.82px;
+  }
+  .Login-form-sing-muted {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 14px;
+    color: #6C6C6C;
+    font-weight: 400;
+    line-height: 17.07px;
+  }
+  .submit-btn{
+    color: #fff;
+    background-color: #FEAF00 !important;
+  }
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+  }
+  .forgot-password{
+    color: #FEAF00;
+  }
+  

@@ -1,0 +1,59 @@
+.App {
+  background-color: white;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+.cap-title{
+  width: 48px;
+  height: 38px;
+  color: #74C1ED;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+.course-title{
+  width: 48px;
+  height: 38px;
+  color: #EE95C5;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+.payment-title{
+  width: 48px;
+  height: 38px;
+  color: #F6C762;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+.user-title{
+  width: 48px;
+  height: 38px;
+  color: #fff;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+.card-text{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  color: #6C6C6C;
+  margin-top: 5%;
+  
+}
+.card-footer{
+  display: flex;
+  border: none !important;
+  background-color: transparent !important;
+  flex-direction: row-reverse;
+  font-size: 30px;
+  line-height: 36.57px;
+  font-weight: 700;
+  margin-top: -5%;
+}
+
+.main{
+  padding-top: 75px !important;
+}
